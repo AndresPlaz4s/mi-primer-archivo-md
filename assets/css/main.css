@@ -3,8 +3,30 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+p {
+    text-align: justify;
+}
+.container{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.col {
+    flex: 1 1 0;
+}
+
+.header {
+    margin: 2rem 0;
+}
+
+.title {
     font-family: "Amarna", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 700;
     font-style: normal;
+    text-align: center;
 }
